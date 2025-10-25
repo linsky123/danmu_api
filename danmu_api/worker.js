@@ -91,7 +91,7 @@ function resolveVodServers(env) {
   return servers;
 }
 
-const DEFAULT_VOD_RETURN_MODE = "fastest"; // 默认 vod返回模式：all（所有站点）或 fastest（最快的站点）
+const DEFAULT_VOD_RETURN_MODE = "all"; // 默认 vod返回模式：all（所有站点）或 fastest（最快的站点）
 let vodReturnMode = DEFAULT_VOD_RETURN_MODE;
 
 function resolveVodReturnMode(env) {
